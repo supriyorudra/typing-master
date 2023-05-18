@@ -25,7 +25,7 @@ const Footer = () => {
   }
 
   const handleGithub = (e) =>{
-    window.open("https://github.com/supriyorudra/", '_blank');
+    window.open("https://github.com/supriyorudra/typing-master", '_blank');
   }
 
   const handleLinkedin = () =>{
@@ -34,6 +34,10 @@ const Footer = () => {
 
   const handleFacebook = () =>{
     window.open("https://www.facebook.com/supriyo.rudra.5", '_blank');
+  }
+  
+  const handleDocs = () =>{
+    window.open("https://docs.google.com/document/d/1HtOnyhMdCwsNbXUzMSo07YaCthKs8O2ZKjGlYUWQpQE/edit?usp=sharing", '_blank');
   }
 
   const handleInstagram = () =>{
@@ -47,7 +51,7 @@ const Footer = () => {
         <LinkedInIcon style={iconStyle} onClick={handleLinkedin} />
         <FacebookIcon style={iconStyle} onClick={handleFacebook} />
         <InstagramIcon style={iconStyle} onClick={handleInstagram} />
-        <DocumentScannerIcon style={iconStyle} />
+        <DocumentScannerIcon style={iconStyle} onClick={handleDocs} />
       </div>
       <div className="copyright">
         Copyright &#169; by Supriyo Rudra
